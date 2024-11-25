@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(90, 205, 188);
+}
+.main{
+    height: 70vh;
+    width: 80%;
+   border: 1px solid black;
+   margin: auto;
+   margin-top: 100px;
+}
+.main .heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputs input{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+}
+.generator .result{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.result input{
+    width: 500px;
+    height: 50px;
+    padding-left: 30px;
+}
+.btns
+{
+    display: flex;
+   justify-content: center;
+    
+}
+.btns button{
+    margin: 50px;
+    height: 50px;
+    width: 100px;
+}
+#gen{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#clear{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
